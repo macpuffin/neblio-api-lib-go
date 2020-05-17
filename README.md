@@ -72,7 +72,7 @@ Class | Method | HTTP request | Description
 *TestnetInsightApi* | [**TestnetSendTx**](docs/TestnetInsightApi.md#testnetsendtx) | **Post** /testnet/ins/tx/send | Broadcasts a signed raw transaction to the network (not NTP1 specific)
 *TestnetNTP1Api* | [**TestnetBroadcastTx**](docs/TestnetNTP1Api.md#testnetbroadcasttx) | **Post** /testnet/ntp1/broadcast | Broadcasts a signed raw transaction to the network
 *TestnetNTP1Api* | [**TestnetBurnToken**](docs/TestnetNTP1Api.md#testnetburntoken) | **Post** /testnet/ntp1/burntoken | Builds a transaction that burns an NTP1 Token
-*TestnetNTP1Api* | [**TestnetGetAddressInfo**](docs/TestnetNTP1Api.md#testnetgetaddressinfo) | **Get** /testnet/ntp1/addressinfo/{address} | Information On a Neblio Address
+*TestnetNTP1Api* | [**TestnetGetAddressInfo**](docs/TestnetNTP1Api.md#testnetgetaddressinfo) | **Get** /testnet/ntp1/addressinfo/{address} | Information On a macpuffins Address
 *TestnetNTP1Api* | [**TestnetGetTokenHolders**](docs/TestnetNTP1Api.md#testnetgettokenholders) | **Get** /testnet/ntp1/stakeholders/{tokenid} | Get Addresses Holding a Token
 *TestnetNTP1Api* | [**TestnetGetTokenId**](docs/TestnetNTP1Api.md#testnetgettokenid) | **Get** /testnet/ntp1/tokenid/{tokensymbol} | Returns the tokenId representing a token
 *TestnetNTP1Api* | [**TestnetGetTokenMetadata**](docs/TestnetNTP1Api.md#testnetgettokenmetadata) | **Get** /testnet/ntp1/tokenmetadata/{tokenid} | Get Metadata of Token
